@@ -1,2 +1,2 @@
 resources:
-  - disallow-adding-capabilities.yaml
+  - verify_image_gcpkms.yaml
