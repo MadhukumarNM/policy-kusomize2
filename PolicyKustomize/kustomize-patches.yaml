@@ -1,8 +1,7 @@
 clusterPatches:
 - target:
      kind: Cluster
-     labelSelector:
-         cluster-name: "cluster-001"
+     name: cluster-001
   kustomizePatch: ./cluster-001/
 - target:
      kind: Cluster
