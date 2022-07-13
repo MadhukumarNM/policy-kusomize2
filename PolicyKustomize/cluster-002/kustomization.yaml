@@ -12,7 +12,7 @@ patchesStrategicMerge:
           madhu cluster 002 Capabilities permit privileged actions without giving full root access.
           Adding capabilities beyond the default set must not be allowed.
     spec:
-      validationFailureAction: enforce
+      validationFailureAction: audit
       background: true
       rules:
       - name: capabilities
